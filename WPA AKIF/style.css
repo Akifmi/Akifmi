@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: #5bc0de;
+    min-height: 100vh;
+    width: 100%;
+    color:#FFFFFF;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    
+}
+
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo{
+    width:160px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold; 
+    padding: 10px 20px;
+    transition: all 0.3s ease; 
+    border-radius: 10px;
+}
+
+
+nav ul li a:hover {
+    background: #00986f;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 152, 111, 0.3); 
+    transform: scale(1.1);
+}
+
+nav ul li {
+    margin: 20px 0;
+   
+}
+
+
+.pharmacy-container {
+    position: absolute;
+    left: 100px; 
+    bottom: 50px; 
+    transform: translateY(10%);
+}
+
+.pharmacy-container img {
+    width: 730px; 
+}
+
+
+
+button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+
+}
+
+
+
+.text-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    text-align:left;
+    color:#fff;
+    padding-left:100px ;
+}
+
+.text-container h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height:1.2;
+    margin-bottom:20px;
+
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-container a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition:background 0.3s ease;
+}
+
+.text-container a:hover{
+    background:#007a59;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+
+.control .line{
+    width: 250px;
+    height: 4px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+}
+
+.control .line span{
+    width: 50%;
+    height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background:  #00986f;
+    display: block;
+}
+
+.active{
+    background: green;
+}
+
+.active span{
+    background: #fff;
+    margin-left: 31px;
+
+}
+
+.on{
+    opacity: 1;
+}
